@@ -1,0 +1,12 @@
+Source: ros-galactic-irobot-create-ignition-toolbox
+Section: misc
+Priority: optional
+Maintainer: rkreinin <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-cmake-cppcheck, ros-galactic-ament-cmake-cpplint, ros-galactic-ament-cmake-flake8, ros-galactic-ament-cmake-lint-cmake, ros-galactic-ament-cmake-pep257, ros-galactic-ament-cmake-uncrustify, ros-galactic-ament-cmake-xmllint, ros-galactic-ament-lint-auto, ros-galactic-control-msgs, ros-galactic-irobot-create-msgs, ros-galactic-irobot-create-toolbox, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-rclcpp-action, ros-galactic-rcutils, ros-galactic-ros-ign-interfaces, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-tf2, ros-galactic-tf2-geometry-msgs, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-irobot-create-ignition-toolbox
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-control-msgs, ros-galactic-irobot-create-msgs, ros-galactic-irobot-create-toolbox, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-rclcpp-action, ros-galactic-rcutils, ros-galactic-ros-ign-interfaces, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-tf2, ros-galactic-tf2-geometry-msgs, ros-galactic-ros-workspace
+Description: Nodes and tools for simulating in Ignition iRobot(R) Create(R) 3 Educational Robot.
