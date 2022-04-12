@@ -1,0 +1,12 @@
+Source: ros-galactic-irobot-create-gazebo-sim
+Section: misc
+Priority: optional
+Maintainer: Ekumen <ekumen@irbt.onmicrosoft.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-irobot-create-gazebo-sim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-irobot-create-common-bringup, ros-galactic-irobot-create-control, ros-galactic-irobot-create-description, ros-galactic-irobot-create-gazebo-bringup, ros-galactic-irobot-create-gazebo-plugins, ros-galactic-irobot-create-nodes, ros-galactic-ros-workspace
+Description: Metapackage for the iRobot(R) Create(R) 3 robot Gazebo simulatorGazebo simulation stack.
