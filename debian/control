@@ -1,0 +1,12 @@
+Source: ros-galactic-irobot-create-control
+Section: misc
+Priority: optional
+Maintainer: Ekumen <ekumen@irbt.onmicrosoft.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-cmake-cppcheck, ros-galactic-ament-cmake-cpplint, ros-galactic-ament-cmake-flake8, ros-galactic-ament-cmake-lint-cmake, ros-galactic-ament-cmake-pep257, ros-galactic-ament-cmake-uncrustify, ros-galactic-ament-cmake-xmllint, ros-galactic-ament-lint-auto, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-irobot-create-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-gazebo-ros2-control, ros-galactic-ign-ros2-control, ros-galactic-irobot-create-nodes, ros-galactic-joint-state-broadcaster, ros-galactic-ros2-controllers, ros-galactic-ros2launch, ros-galactic-ros-workspace
+Description: Provides the diff-drive controller for the iRobot(R) Create(R) 3 Educational Robot.
