@@ -1,0 +1,12 @@
+Source: ros-galactic-irobot-create-common-bringup
+Section: misc
+Priority: optional
+Maintainer: Ekumen <ekumen@irbt.onmicrosoft.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-cmake-cppcheck, ros-galactic-ament-cmake-cpplint, ros-galactic-ament-cmake-flake8, ros-galactic-ament-cmake-lint-cmake, ros-galactic-ament-cmake-pep257, ros-galactic-ament-cmake-uncrustify, ros-galactic-ament-cmake-xmllint, ros-galactic-ament-lint-auto, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-irobot-create-common-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-irobot-create-control, ros-galactic-irobot-create-description, ros-galactic-joint-state-publisher, ros-galactic-robot-state-publisher, ros-galactic-ros2launch, ros-galactic-rviz2, ros-galactic-urdf, ros-galactic-xacro, ros-galactic-ros-workspace
+Description: Provides common launch and configuration scripts for a simulated iRobot(R) Create(R) 3 Educational Robot.
