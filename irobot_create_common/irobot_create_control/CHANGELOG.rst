@@ -2,6 +2,9 @@
 Changelog for package irobot_create_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2022-05-05)
+------------------
+
 1.0.2 (2022-05-05)
 ------------------
 * fix dependency tree of create3_sim packages (`#177 <https://github.com/iRobotEducation/create3_sim/issues/177>`_)
