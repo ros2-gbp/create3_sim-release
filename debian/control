@@ -1,0 +1,12 @@
+Source: ros-galactic-irobot-create-ignition-bringup
+Section: misc
+Priority: optional
+Maintainer: rkreinin <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-cmake-cppcheck <!nocheck>, ros-galactic-ament-cmake-cpplint <!nocheck>, ros-galactic-ament-cmake-flake8 <!nocheck>, ros-galactic-ament-cmake-lint-cmake <!nocheck>, ros-galactic-ament-cmake-pep257 <!nocheck>, ros-galactic-ament-cmake-uncrustify <!nocheck>, ros-galactic-ament-cmake-xmllint <!nocheck>, ros-galactic-ament-lint-auto <!nocheck>, ros-galactic-ros-ign-interfaces, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-irobot-create-ignition-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-geometry-msgs, ros-galactic-ign-ros2-control, ros-galactic-irobot-create-common-bringup, ros-galactic-irobot-create-description, ros-galactic-irobot-create-ignition-plugins, ros-galactic-irobot-create-ignition-toolbox, ros-galactic-irobot-create-msgs, ros-galactic-ros-ign-bridge, ros-galactic-ros-ign-gazebo, ros-galactic-ros-ign-interfaces, ros-galactic-std-msgs, ros-galactic-ros-workspace
+Description: Provides launch and configuration scripts for a Ignition simulated iRobot(R) Create(R) 3 Educational Robot.
