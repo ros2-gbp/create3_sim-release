@@ -1,0 +1,12 @@
+Source: ros-humble-irobot-create-gazebo-plugins
+Section: misc
+Priority: optional
+Maintainer: Ekumen <ekumen@irbt.onmicrosoft.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-cpplint <!nocheck>, ros-humble-ament-cmake-flake8 <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-pep257 <!nocheck>, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-gazebo-dev, ros-humble-gazebo-ros, ros-humble-geometry-msgs, ros-humble-irobot-create-msgs, ros-humble-irobot-create-toolbox, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-irobot-create-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-gazebo-dev, ros-humble-gazebo-ros, ros-humble-geometry-msgs, ros-humble-irobot-create-msgs, ros-humble-irobot-create-toolbox, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: Provides the Gazebo plugins for the iRobot(R) Create(R) 3 Educational Robot.
