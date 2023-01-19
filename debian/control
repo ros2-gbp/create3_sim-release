@@ -1,0 +1,12 @@
+Source: ros-humble-irobot-create-control
+Section: misc
+Priority: optional
+Maintainer: Ekumen <ekumen@irbt.onmicrosoft.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-flake8 <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-pep257 <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-irobot-create-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-joint-state-broadcaster, ros-humble-ros2-controllers, ros-humble-ros2launch, ros-humble-rsl, ros-humble-ros-workspace
+Description: Provides the diff-drive controller for the iRobot(R) Create(R) 3 Educational Robot.
