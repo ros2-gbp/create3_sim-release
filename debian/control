@@ -1,0 +1,12 @@
+Source: ros-humble-irobot-create-ignition-sim
+Section: misc
+Priority: optional
+Maintainer: rkreinin <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-irobot-create-ignition-sim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-irobot-create-ignition-bringup, ros-humble-irobot-create-ignition-plugins, ros-humble-irobot-create-ignition-toolbox, ros-humble-ros-workspace
+Description: Metapackage for the iRobot(R) Create(R) 3 robot Ignition simulator
