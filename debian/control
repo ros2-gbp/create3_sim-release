@@ -1,0 +1,12 @@
+Source: ros-humble-irobot-create-toolbox
+Section: misc
+Priority: optional
+Maintainer: Ekumen <ekumen@irbt.onmicrosoft.com>
+Build-Depends: debhelper (>= 9.0.0), libignition-math6-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-cpplint <!nocheck>, ros-humble-ament-cmake-flake8 <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-pep257 <!nocheck>, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-rclcpp, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-irobot-create-toolbox
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-math6-dev, ros-humble-rclcpp, ros-humble-ros-workspace
+Description: Components and helpers for the iRobot(R) Create(R) 3 Educational Robot.
