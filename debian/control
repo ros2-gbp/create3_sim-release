@@ -1,0 +1,12 @@
+Source: ros-humble-irobot-create-ignition-bringup
+Section: misc
+Priority: optional
+Maintainer: rkreinin <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-cpplint <!nocheck>, ros-humble-ament-cmake-flake8 <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-pep257 <!nocheck>, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ros-ign-interfaces, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-irobot-create-ignition-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-ign-ros2-control, ros-humble-irobot-create-common-bringup, ros-humble-irobot-create-description, ros-humble-irobot-create-ignition-plugins, ros-humble-irobot-create-ignition-toolbox, ros-humble-irobot-create-msgs, ros-humble-ros-ign-bridge, ros-humble-ros-ign-gazebo, ros-humble-ros-ign-interfaces, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: Provides launch and configuration scripts for a Ignition simulated iRobot(R) Create(R) 3 Educational Robot.
