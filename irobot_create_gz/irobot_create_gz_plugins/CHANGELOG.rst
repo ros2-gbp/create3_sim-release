@@ -2,6 +2,17 @@
 Changelog for package irobot_create_ignition_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.2 (2024-08-26)
+------------------
+* replace gz-gui8 with gz_gui_vendor
+  back to what was used before, but as depend rather than buildtool_depend
+* Contributors: Alberto Soragna
+
+3.0.1 (2024-08-25)
+------------------
+* replace gz_gui_vendor with gz-gui8 (`#230 <https://github.com/iRobotEducation/create3_sim/issues/230>`_)
+* Contributors: Alberto Soragna
+
 3.0.0 (2024-08-25)
 ------------------
 * Jazzy updates (`#229 <https://github.com/iRobotEducation/create3_sim/issues/229>`_)
