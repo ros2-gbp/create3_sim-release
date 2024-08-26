@@ -2,6 +2,12 @@
 Changelog for package irobot_create_toolbox
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.2 (2024-08-26)
+------------------
+
+3.0.1 (2024-08-25)
+------------------
+
 3.0.0 (2024-08-25)
 ------------------
 * Jazzy updates (`#229 <https://github.com/iRobotEducation/create3_sim/issues/229>`_)
