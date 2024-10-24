@@ -1,0 +1,12 @@
+Source: ros-jazzy-irobot-create-common-bringup
+Section: misc
+Priority: optional
+Maintainer: Ekumen <ekumen@irbt.onmicrosoft.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-cppcheck <!nocheck>, ros-jazzy-ament-cmake-cpplint <!nocheck>, ros-jazzy-ament-cmake-flake8 <!nocheck>, ros-jazzy-ament-cmake-lint-cmake <!nocheck>, ros-jazzy-ament-cmake-pep257 <!nocheck>, ros-jazzy-ament-cmake-python, ros-jazzy-ament-cmake-uncrustify <!nocheck>, ros-jazzy-ament-cmake-xmllint <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-irobot-create-common-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-irobot-create-control, ros-jazzy-irobot-create-description, ros-jazzy-irobot-create-nodes, ros-jazzy-joint-state-publisher, ros-jazzy-robot-state-publisher, ros-jazzy-ros2launch, ros-jazzy-rviz2, ros-jazzy-urdf, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Description: Provides common launch and configuration scripts for a simulated iRobot(R) Create(R) 3 Educational Robot.
