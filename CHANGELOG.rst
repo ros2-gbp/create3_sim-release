@@ -2,6 +2,9 @@
 Changelog for package irobot_create_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.4 (2024-10-23)
+------------------
+
 3.0.3 (2024-09-28)
 ------------------
 * Add 30s timeout for controller spawners (`#233 <https://github.com/iRobotEducation/create3_sim/issues/233>`_)
