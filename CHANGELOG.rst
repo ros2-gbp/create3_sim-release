@@ -2,6 +2,9 @@
 Changelog for package irobot_create_ignition_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.4 (2024-10-23)
+------------------
+
 3.0.3 (2024-09-28)
 ------------------
 * Generalize gz vendor use and modernize CMake (`#232 <https://github.com/iRobotEducation/create3_sim/issues/232>`_)
