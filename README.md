@@ -1,3 +1,35 @@
+## create3_sim (jazzy) - 3.0.4-1
+
+The packages in the `create3_sim` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy create3_sim` on `Thu, 24 Oct 2024 00:22:36 -0000`
+
+These packages were released:
+- `irobot_create_common_bringup`
+- `irobot_create_control`
+- `irobot_create_description`
+- `irobot_create_gz_bringup`
+- `irobot_create_gz_plugins`
+- `irobot_create_gz_sim`
+- `irobot_create_gz_toolbox`
+- `irobot_create_nodes`
+- `irobot_create_toolbox`
+
+Version of package(s) in repository `create3_sim`:
+
+- upstream repository: https://github.com/iRobotEducation/create3_sim.git
+- release repository: https://github.com/ros2-gbp/create3_sim-release.git
+- rosdistro version: `3.0.3-1`
+- old version: `3.0.3-1`
+- new version: `3.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## create3_sim (jazzy) - 3.0.3-1
 
 The packages in the `create3_sim` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --ros-distro jazzy create3_sim` on `Sat, 28 Sep 2024 17:18:47 -0000`
